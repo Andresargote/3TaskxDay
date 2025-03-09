@@ -4,6 +4,7 @@ import { getRandomNumber } from "../utils/getRandomNumber";
 
 export default function Quote() {
   const randomNumber = getRandomNumber(0, QUOTES.length - 1);
+
   const quote = QUOTES[randomNumber];
 
   return (
